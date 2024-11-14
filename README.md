@@ -1,0 +1,3 @@
+# mygo
+
+Test GO module
