@@ -1,11 +1,15 @@
-package mygo
+package test
 
-import "testing"
+import (
+    "testing"
+
+	"github.com/ymat2/mygo/cmd"
+)
 
 func TestHello(t *testing.T) {
    name := "World"
    want := "Hello, World!"
-   if got := Hello(name); got != want {
+   if got := cmd.Hello(name); got != want {
        t.Errorf("Hello(%q) = %q; want %q", name, got, want)
    }
 }

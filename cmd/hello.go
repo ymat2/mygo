@@ -1,4 +1,4 @@
-package mygo
+package cmd
 
 import "fmt"
 
