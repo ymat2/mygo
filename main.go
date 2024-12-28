@@ -3,7 +3,7 @@ package main
 import (
     "flag"
 
-	"github.com/ymat2/mygo/cmd"
+    "github.com/ymat2/mygo/cmd"
 )
 
 func main() {
