@@ -2,6 +2,7 @@ package main
 
 import (
     "flag"
+    "fmt"
 
     "github.com/ymat2/mygo/cmd"
 )
@@ -9,5 +10,7 @@ import (
 func main() {
     var name string
     flag.StringVar(&name, "name", "Yuki", "Your name.")
-	cmd.Hello(name)
+    flag.Parse()
+
+    fmt.Println(cmd.Hello(name))
 }
